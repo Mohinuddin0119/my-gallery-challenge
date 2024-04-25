@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.profile{
+    width: 10%;
+    border-radius: 10px;
+}
+.profile-part1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+small{
+    color:dimgrey;
+}
+.profile-part2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.post, .follower, .following{
+    /* border: 2px solid; */
+    width: 65px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color:rgb(223, 210, 210);
+    text-align: center;
+}
